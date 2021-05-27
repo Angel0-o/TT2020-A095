@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/colorPrimaryDark">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/popup_contact_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:hint="@string/nickname"
+        app:hintTextColor="@color/colorBlack"
+        app:boxStrokeColor="@color/colorWhite"
+        app:boxStrokeWidthFocused="2dp"
+        app:startIconDrawable="@drawable/ic_name"
+        app:startIconTint="@color/colorBlack"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/colorBlack">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:layout_marginBottom="10dp"
+            android:drawableLeft="@drawable/ic_email"
+            android:drawablePadding="15dp"
+            android:inputType="textEmailAddress"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.hbb20.CountryCodePicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ccp_autoDetectCountry="true"
+        app:ccp_showFlag="true"
+        app:ccp_showNameCode="true"
+        app:ccp_showFullName="true"
+        android:layout_marginBottom="20dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/popup_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:hint="@string/phonenumber"
+        app:hintTextColor="@color/colorBlack"
+        app:boxStrokeColor="@color/colorWhite"
+        app:boxStrokeWidthFocused="2dp"
+        app:startIconDrawable="@drawable/ic_phone"
+        app:startIconTint="@color/colorBlack"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/colorBlack">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:layout_marginBottom="20dp"
+            android:drawablePadding="15dp"
+            android:inputType="phone"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/popup_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/custom_button"
+            android:shadowColor="@color/colorPrimary"
+            android:text="@string/cancel" />
+
+        <Button
+            android:id="@+id/popup_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/custom_button"
+            android:shadowColor="@color/colorPrimary"
+            android:text="@string/save" />
+
+    </LinearLayout>
+
+</LinearLayout>

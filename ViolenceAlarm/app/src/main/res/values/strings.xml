@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">ViolenceAlarm</string>
+    <string name="logo_name">Get A Way</string>
+    <string name="slogan_name">We will help you to find your way!</string>
+    <string name="powered_by">Powered By Miguel Angel Morales</string>
+    //Login
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="passwordconfirm">Confirmar Contraseña</string>
+    <string name="rememberme">Recuerdame</string>
+    <string name="name">Nombre(s)</string>
+    <string name="nickname">Nombre(Alias)</string>
+    <string name="lastname">Apellidos</string>
+    <string name="gender">Sexo</string>
+    <string name="birthdate">Fecha de nacimiento</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="register">Registrarse</string>
+    <string name="createaccount">Registro de perfil</string>
+    <string name="male">Masculino</string>
+    <string name="female">Femenino</string>
+    <string name="other">Otro</string>
+    <string name="emergencycontact">Contacto de emergencia</string>
+    <string name="emergencycontacts">Contactos de emergencia</string>
+    <string name="phonenumber">Número telefónico </string>
+    <string name="next">Siguiente</string>
+    <string name="previous">Anterior</string>
+    <string name="comeback">Regresar</string>
+    <string name="save">Guardar</string>
+
+    //Main Screen
+    <string name="alert">Alertar</string>
+    <string name="defuse">Desactivar</string>
+    <string name="addContact">Añadir contacto</string>
+    <string name="title">Trabajo Terminal</string>
+    <string name="profileEdition">Edición de perfil</string>
+    <string name="profileSettings">Configuración de perfil</string>
+    <string name="help">Ayuda</string>
+    <string name="about">Acerca de</string>
+    <string name="exit">Salir</string>
+    <string name="accept">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+
+    //Message Error
+    <string name="emptyField">Campo olbigatorio</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="helpText">
+        En esta sección se ofrece una breve descripción del funcionamiento de los botones de la sección principal de una manera descendente.
+        \n\nBotón menu: Este menu abre la configuración de perfil en la cual a su vez se puede acceder a los siguientes botones:
+        \n\nBotón Edición de perfil: Este botón nos lleva a la sección Edición de perfil, donde se podrá editar los datos del usuario.
+        \n\nBotón Ayuda: Este botón nos lleva a la sección Ayuda donde se podra leer una breve descripción de todos los botones.
+        \n\nBotón Acerca de: Este botón nos lleva a la sección Acerca de en la cual se podra leer el fin de esta aplicación.
+        \n\nBotón Salir: Este botón cerrará la sesión y nos llevará a la sección de Inicio de sesión.
+        \n\nBotón Alertar: Este botón activará la alerta, enviando un SMS a todos los contactos de emergencía.
+        \n\nBotón Desactivar: Este botón descativará la alerta.
+        \n\nBotón Añadir Contacto: Este botón nos lleva a la sección Contactos de emergencia, donde se podrá editar la lista de contactos.
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="aboutText">
+        Esta aplicación fue creada para identificar de manera rapida y eficiente la ubicación de asaltos con violencia, en la ESCOM IPN.
+        \n\nDesarrollador: Miguel Ángel Morales García
+        \nEmail: angel.mora9731@gmail.com
+    </string>
+
+</resources>

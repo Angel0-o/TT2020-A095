@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "852295291602",
+    "firebase_url": "https://violencealarm-default-rtdb.firebaseio.com",
+    "project_id": "violencealarm",
+    "storage_bucket": "violencealarm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852295291602:android:8bd951ec5fc99f6d5a530b",
+        "android_client_info": {
+          "package_name": "com.trabajoTerminal.violenceAlarm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "852295291602-ddg78csfjtauj9d74njpv5i3r2g5cfm0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQXFJ2hQgKQFE1gIhynGogwY4jUn3Ufgk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "852295291602-ddg78csfjtauj9d74njpv5i3r2g5cfm0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

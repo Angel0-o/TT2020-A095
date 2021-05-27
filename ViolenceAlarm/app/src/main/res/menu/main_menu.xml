@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/profile_edition"
+            android:title="@string/profileEdition"
+            android:icon="@drawable/ic_account_circle" />
+
+        <item android:id="@+id/help"
+            android:title="@string/help"
+            android:icon="@drawable/ic_help"/>
+
+        <item android:id="@+id/about"
+            android:title="@string/about"
+            android:icon="@drawable/ic_info"/>
+
+        <item android:id="@+id/close_session"
+            android:title="@string/exit"
+            android:icon="@drawable/ic_exit"/>
+
+    </group>
+
+</menu>
